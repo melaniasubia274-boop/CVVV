@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sheyla Banegas</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f5;
+            color: #354653;
+            padding: 30px;
+        }
+
+        .contenedor {
+            max-width: 950px;
+            margin: auto;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px #0002;
+        }
+
+        header {
+            background: #17324d;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            padding: 35px;
+        }
+
+        .foto {
+            width: 170px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center top;
+            border: 4px solid white;
+            border-radius: 8px;
+        }
+
+        .iniciales {
+            color: #d6a84f;
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+
+        h1 {
+            font-size: 27px;
+            margin: 10px 0;
+        }
+
+        header p {
+            margin-top: 8px;
+        }
+
+        section {
+            padding: 20px 35px;
+        }
+
+        h2 {
+            color: #147d82;
+            border-bottom: 2px solid #d6a84f;
+            padding-bottom: 7px;
+            margin-bottom: 12px;
+            font-size: 19px;
+        }
+
+        p, li {
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        .habilidades {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .habilidades span {
+            background: #eaf2f3;
+            color: #17324d;
+            padding: 9px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #17324d;
+            color: white;
+            text-align: center;
+            padding: 17px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                background: white;
+            }
+
+            .contenedor {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <header>
+
+        <!-- TU FOTOGRAFÍA -->
+        <img src="foto_sheyla.jpeg"
+             alt="Foto de Sheyla Banegas"
+             class="foto">
+
+        <div>
+            <div class="iniciales">SB</div>
+
+            <h1>SHEYLA MELANIA NÉLIDA BANEGAS SUBIA</h1>
+
+            <p>Técnica en Informática y Desarrollo Web</p>
+
+            <p>Santa Lucía, Puno - Perú</p>
+        </div>
+
+    </header>
+
+    <section>
+        <h2>PERFIL PROFESIONAL</h2>
+
+        <p>
+            Técnica en Informática con conocimientos en
+            desarrollo de páginas web, redes y proyectos
+            con Arduino. Responsable, puntual, creativa
+            y con muchas ganas de aprender.
+        </p>
+    </section>
+
+    <section>
+        <h2>CONOCIMIENTOS INFORMÁTICOS</h2>
+
+        <div class="habilidades">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python básico</span>
+            <span>Redes</span>
+            <span>Arduino</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>FORMACIÓN Y CAPACITACIONES</h2>
+
+        <ul>
+            <li>Informática y Desarrollo Web.</li>
+            <li>Capacitación en fibra óptica.</li>
+            <li>Fundamentos de redes y soporte técnico.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>MIS PROYECTOS</h2>
+
+        <ul>
+            <li>Página web con HTML y CSS.</li>
+            <li>Proyecto académico con Arduino.</li>
+            <li>Proyecto de instalación y redes.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>PRÁCTICAS / EXPERIENCIA</h2>
+
+        <p>
+            Prácticas en soporte técnico y redes.
+            [Completar institución y fechas].
+        </p>
+    </section>
+
+    <section>
+        <h2>FORTALEZAS</h2>
+
+        <ul>
+            <li>Aprendo rápido.</li>
+            <li>Trabajo en equipo.</li>
+            <li>Responsable y puntual.</li>
+            <li>Creativa y organizada.</li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2026 SB | Sheyla Banegas
+    </footer>
+
+</div>
+
+</body>
+</html>
